@@ -1,0 +1,24 @@
+.links a {
+  text-decoration: none;
+  color: ghostwhite;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 40px;
+}
+.top-links {
+}
+
+.bottom-links {
+}
+
+a {
+  font-size: 16px;
+  display: flex;
+  gap: 10px;
+  font-weight: 700;
+  align-items: center;
+}
