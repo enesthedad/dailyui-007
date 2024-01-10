@@ -25,7 +25,7 @@ const Navbar = () => {
           </div>
         </a>
         <a href=''>
-          <i class='fa-solid fa-arrow-right-from-bracket'></i>
+          <i class='logout fa-solid fa-arrow-right-from-bracket'></i>
         </a>
       </div>
     </div>

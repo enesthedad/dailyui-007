@@ -1,0 +1,41 @@
+.settings {
+  background-color: #ede9fe;
+  margin: 64px 64px;
+  padding: 64px;
+}
+.settings-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.settings-left h3 {
+  font-size: 22px;
+  color: #6b21a8;
+  font-weight: 700;
+}
+
+.settings-left p {
+  color: #44403c;
+}
+.settings-btns {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.settings-btns a {
+  background-color: #3b0764;
+  padding: 10px 20px;
+  color: #f3f3f3;
+  border-radius: 7px;
+  text-decoration: none;
+  font-weight: 700;
+}
+.settings-btns a:hover {
+  opacity: 0.75;
+  transition: all 300ms ease-in-out;
+}
+.settings-btns a.right-settings-btn {
+  background-color: #9333ea;
+  margin-left: auto;
+}
